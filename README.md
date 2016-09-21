@@ -6,7 +6,7 @@ Experiments in identifying someone's interests/knowledge using word embedding &a
 
 
 #### Training data?
-- Hacker News headlines (and comments?)
+- Hacker News headlines (and comments?) ([All HN headlines w/10+ comments from users who've made 10+ comments](https://zenodo.org/record/45901))
 - scraped extracted URLs
 - use [sense2vec](https://github.com/spacy-io/sense2vec)
 - Wikipedia
@@ -26,3 +26,6 @@ topicvec paper: [Generative Topic Embedding: a Continuous Representation of Docu
 
 #### [Word Mover's Distance](https://github.com/mkusner/wmd) - proposed future work at end of topicvec paper (unsure if it can be used here)
 wmd paper: [From Word Embeddings To Document Distances](http://jmlr.org/proceedings/papers/v37/kusnerb15.pdf) 
+
+#### [tweet2vec](https://github.com/bdhingra/tweet2vec) - predicts hashtags via character-level vectors? (probably not useful for this)
+tweet2vec paper: [Tweet2Vec: Character-Based Distributed Representations for Social Media](https://arxiv.org/abs/1605.03481)
