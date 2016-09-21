@@ -24,6 +24,9 @@ entity2vec paper: [Fast and Space-efficient Entity Linking in Queries](www.di.un
 #### [topicvec](https://github.com/askerlee/topicvec) - a different way of mixing lda w/word vectors
 topicvec paper: [Generative Topic Embedding: a Continuous Representation of Documents](https://arxiv.org/pdf/1606.02979v2))
 
+#### [LFTM](https://github.com/datquocnguyen/LFTM) - a third attempt at mixing LDA and word2vec
+LFTM paper: [Improving Topic Models with Latent Feature Word Representations](https://transacl.org/ojs/index.php/tacl/article/download/582/158)
+
 #### [Word Mover's Distance](https://github.com/mkusner/wmd) - proposed future work at end of topicvec paper (unsure if it can be used here)
 wmd paper: [From Word Embeddings To Document Distances](http://jmlr.org/proceedings/papers/v37/kusnerb15.pdf) 
 
