@@ -11,9 +11,20 @@ Experiments in identifying someone's interests/knowledge using word embedding &a
 - use [sense2vec](https://github.com/spacy-io/sense2vec)
 - Wikipedia
  
+### Inspiration
+
 
 
 ### Research
+
+#### [words2map](https://github.com/overlap-ai/words2map) - word2vec + t-SNE + HDBSCAN
+words2map blogpost: [Making Sense of Everything with words2map](http://blog.yhat.com/posts/words2map.html)
+
+[Visualizing Clusters of Clickbait Headlines Using Spark, Word2vec, and Plotly](http://minimaxir.com/2016/08/clickbait-cluster/) - built on top of words2map
+
+#### [Facebook's fastText](https://github.com/facebookresearch/fastText)
+fastText paper on word representations: [*Enriching Word Vectors with Subword Information*](https://arxiv.org/pdf/1607.04606v1.pdf)
+fastText paper on text classification: [*Bag of Tricks for Efficient Text Classification*](https://arxiv.org/pdf/1607.01759v2.pdf)
 
 #### [lda2vec](https://github.com/cemoody/lda2vec) - mixes lda and word2vec
 lda2vec paper: [Mixing Dirichlet Topic Models and Word Embeddings to Make lda2vec](https://arxiv.org/pdf/1605.02019v1.pdf)
